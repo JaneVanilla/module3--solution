@@ -1,0 +1,124 @@
+body {
+	font-size: 16px;
+	color: #fff;
+    background: #A7226E;
+    font-family: 'Droid Serif', serif;
+    }
+ .navbar-logo {
+    	margin: 10px 15px;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #A7226E;
+
+    }
+  #logo:hover {
+  	color: black;
+  }
+#header-nav {
+	background: #e0dcf8;
+	-webkit-border-radius: 0;
+	        border-radius: 0;
+}
+a, a:hover {
+	text-decoration: none;
+}
+ #nav-list li > a {
+ 	color: black;
+ 	font-weight: bold;
+ 	font-size: 1.2em;
+ 	line-height: 1.3em;
+ }
+  #nav-list li:hover {
+  	 background: white;
+  }
+ #nav-list li > a:hover {
+ 	color: #A7226E;
+ 	opacity: .8;
+ }
+ #nav-list li > a > i {
+ 	color: #A7226E;
+ 	font-size: 0.8em;
+ 	margin-bottom: 2px;
+ 	margin-right: 5px;
+ }
+  #nav-list a {
+ 	 	text-align: center;
+ }
+ .navbar-header button.navbar-toggle, .navbar-header  .icon-bar {
+ 	border: 1px solid #A7226E;
+ }
+ /*Main content*/
+ 
+#main-content__title {
+	margin: 5vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2em;
+	
+}
+ #meals {
+ 	color: black;
+ 	background: white;
+ 	padding: 15px;
+ 	margin-bottom: 50px;
+ }
+
+.menu-item__title {
+	color:  #A7226E;
+	margin-bottom: 25px;
+}
+.page-footer {
+	padding: 30px;
+	background: #e0dcf8;
+	text-align: center;
+	font-style: italic;
+}
+.page-footer__text {
+	
+	color: #A7226E;
+	
+}
+ @media(max-width: 768px) {
+ 	 #nav-list {
+ 	 	margin: 0;
+ 	 	padding: 0;
+ 	 	background: white;
+ 	 	color: black;
+ 	 }
+ 	  #nav-list li > a:hover {
+ 	background: white;
+ 	color: #A7226E;
+     }
+ 	 #nav-list li > a {
+ 	 	text-align: center;
+ 	 	padding: 20px;
+ 	 }
+ 	 #bs-example-navbar-collapse-1 {
+ 	 	padding: 0;
+ 	 }
+ 	 hr {
+ 	 	margin: 0;
+ 	 	padding: 0;
+ 	 	color: #A7226E;
+ 	 	background: #A7226E;
+ 	 }
+ 	 #main-content__title {
+	    margin: 2vw;
+	    margin-bottom: 1.5em;
+	    font-size: 1.7em;
+     }
+     #meals {
+ 	    margin-bottom: 50px;
+     }  
+     #meals a {
+	   margin: 20px;
+	   color:  #A7226E;
+	   font-weight: bold;
+     }
+     #meals a i {
+	    margin-left: 5px;
+        }
+     #meals a:hover {
+	   color: black;
+     }
+}
